@@ -120,8 +120,8 @@ falco-nats$ kubectl exec -it falco-75r25 -c falco -- bash
 
 ## nodejs-app
 
-This is an application that can be exploited via unsanitized data in a cookie. See the [README.MD](nodejs-app/README.MD) in the `nodejs-app` for more details.
+This is an application that can be exploited via unsanitized data in a cookie. See the [README.MD](nodejs-app/README.md) in the `nodejs-app` for more details.
 
 ## kubeless-function
 
-This is a kubeless function that subscribes to the NATS `FALCO` subject on the NATS server and fires when an alert is recieved. See the [README.MD](kubeless-function/README.MD) for more details. 
+This is a kubeless function that subscribes to the NATS `FALCO` subject on the NATS server and fires when an alert is recieved. See the [README.MD](kubeless-function/README.md) for more details. 
